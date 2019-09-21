@@ -36,13 +36,13 @@ let imageView = UIImageView(image: animation.animatedImage())
 imageView.frame = CGRect(x: 0, y: 0, width: width, height: height)
 PlaygroundPage.current.liveView = imageView
 
- let resultURL = playgroundSharedDataDirectory.appendingPathComponent("result.gif")
- let GIFData = animation.animatedGIFRepresentation()
- do {
-     try GIFData.write(to: resultURL)
- } catch {
-     print("Error Writing File: \(error.localizedDescription)")
- }
+let resultURL = playgroundSharedDataDirectory.appendingPathComponent("result.gif")
+let GIFData = animation.animatedGIFRepresentation()
+do {
+    try GIFData.write(to: resultURL)
+} catch {
+    print("Error Writing File: \(error.localizedDescription)")
+}
 
 ```
 

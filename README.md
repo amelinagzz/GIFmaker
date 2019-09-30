@@ -52,8 +52,8 @@ Next add this after *in* and before the closing bracket.
 
 ```Swift
  let progress: CGFloat = CGFloat(idx) / CGFloat(frameCount)
-    let from =  colorLiteral(red: 0.4050287008, green: 0.3449084759, blue: 0.8464239836, alpha: 1)
-    let to =  colorLiteral(red: 0, green: 0.7610777617, blue: 0.9553645253, alpha: 1)
+    let from = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+    let to = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
     var h1: CGFloat = 0
     var s1: CGFloat = 0
     var b1: CGFloat = 0
@@ -75,11 +75,15 @@ Next add this after *in* and before the closing bracket.
     context.fill(CGRect(x: 0, y: 0, width: width, height: height))
 ```
 
-That handles the interpolation between the two colors using hue, saturation and brightness. It’s changing the colors over time. The constants to and from are the two main colors, try changing them to any colors you want by modifying the RGB values.
+Double click on the color pickers to choose your favorite two colors. Don't choose the same color twice.
+
+The code aboce handles the interpolation between the two colors using hue, saturation and brightness. It’s changing the colors over time. The constants *to* and *from* are the two main colors.
 
 That’s it for the `createAutoReversedLoop` function.
 
 Below everything we’ve done. Add this:
+
+*Note: You will need to replace the quotations for the correct ones*
 
 ```Swift
 
@@ -104,7 +108,7 @@ We are done! How can we see the result?
 
 **Step 3 - Live View**
 
-To see the result click on the second option from the three buttons at the top right corner. It looks like a Venn Diagram. Ask if you can’t find it. This will open the Live View.
+To see the result click on the second option from the three buttons at the top right corner. It looks like a Venn Diagram. Ask if you can’t find it, but it should al ready be selected. This will open the Live View.
 
 Now click the play button at lower left corner and see your GIF come to life. 
 
@@ -112,8 +116,8 @@ It should work by now. Ask for help if you don’t get the desired result.
 
 **Step 4 - Saving**
 
-But wait, we get an error in the debug console. It says the GIF couldn’t be saved. This is because the saving is trying to happen in this specific directory `~/Documents/Shared Playground Data/`
-You probably don’t have this folder. So go ahead and create it. Then run your code again. Go back to the folder and see your GIF there. NOW you’re done. 😎
+But wait, we get an error in the debug console. It says the GIF couldn’t be saved. This is because the program is trying to  save the GIF in this specific directory `~/Documents/Shared Playground Data/`
+You probably don’t have this folder. So go ahead and create it. Then run your code again (play button). Go back to the folder and see your GIF there. NOW you’re done. 😎
 
 Now that you are done, you can play around with the values of the colors and the number of frames. Be careful not to have this number too low if you are sensitive to light & color changes happening too fast.
 

@@ -12,7 +12,7 @@ Now delete the two lines of content there so we can start from scratch.
 
 **Step 2 - The code**
 
-We need to import some frameworks to make this work. `UIKit` provides the required infrastructure for your iOS apps while `PlaygroundSuppor`t gives us tools to make the playground experience better.
+We need to import some frameworks to make this work. `UIKit` provides the required infrastructure for your iOS apps while `PlaygroundSupport` gives us tools to make the playground experience better.
 
 Add this at the top of your file.
 

@@ -48,7 +48,7 @@ let animation = try Animation.createAutoReversedLoop(frameCount, width: width, h
 }
 ```
 
-Next add this after in and before the closing bracket.
+Next add this after *in* and before the closing bracket.
 
 ```Swift
  let progress: CGFloat = CGFloat(idx) / CGFloat(frameCount)

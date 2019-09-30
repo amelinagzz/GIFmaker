@@ -4,8 +4,8 @@ We are going to create a colorful GIF using Swift and Swift Playgrounds. 🍭
 
 **Step 1 - Opening the project**
 
-Using Xcode, open the Playground file given by the instructor (double click)
-You should se a blan file called GIFPlayground.
+Using Xcode, open the Playground file given by the instructor (double click).
+You should se a blank file called GIFPlayground.
 
 **Step 2 - The code**
 

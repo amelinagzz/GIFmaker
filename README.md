@@ -43,7 +43,7 @@ Change your code to this to include the variables and get rid of the error. Donâ
 
 ```Swift
 
-let animation2 = try Animation.createAutoReversedLoop(frameCount, width: width, height: height, frameDelay: 0.1) { (idx, context) in
+let animation = try Animation.createAutoReversedLoop(frameCount, width: width, height: height, frameDelay: 0.1) { (idx, context) in
     
 }
 ```

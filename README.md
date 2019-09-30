@@ -2,13 +2,10 @@
 
 We are going to create a colorful GIF using Swift and Swift Playgrounds. 🍭
 
-**Step 1 - Creating a playground**
+**Step 1 - Opening the project**
 
-Open Xcode and select the first option in the left *Get started with a playground*
-Make sure the *Blank* template is selected and click *Next*.
-Give it a name that represents what you are doing and a location in your computer then continue. 
-
-Now delete the two lines of content there so we can start from scratch.
+Using Xcode, open the Playground file given by the instructor (double click)
+You should se a blan file called GIFPlayground.
 
 **Step 2 - The code**
 

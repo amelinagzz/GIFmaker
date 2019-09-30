@@ -23,7 +23,7 @@ import PlaygroundSupport
 
 We need a few constants, add them as you learn what they do.
 
-Our GIF will transition from one color to another. `frameCount` is the number of frames that transition is going to take. Let’s start with a value of 50.
+Our GIF will transition from one color to another. `frameCount` is the number of frames that the transition is going to take. Let’s start with a value of 50.
 
 `let frameCount = 50`
 
